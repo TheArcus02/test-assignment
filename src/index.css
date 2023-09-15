@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.text-artistic{
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #C0C1C9;
+}
+
+.gray-gradient{ 
+    background: linear-gradient(180deg, #CFCFD0 0%, rgba(207, 207, 208, 0.00) 100%);
+}
